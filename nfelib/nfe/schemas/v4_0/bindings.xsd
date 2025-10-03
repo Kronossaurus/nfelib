@@ -1,0 +1,6 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="leiauteNFe_v4.00.xsd"/>
+	<xs:include schemaLocation="nfe_v4.00.xsd"/>
+	<xs:include schemaLocation="enviNFe_v4.00.xsd"/> 
+	<xs:include schemaLocation="procNFe_v4.00.xsd"/>
+</xs:schema>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Config xmlns="http://pypi.org/project/xsdata" version="22.7">
-  <Output maxLineLength="79">
+  <Output maxLineLength="79" typingStrategy="stdlib">
     <Package>generated</Package>
     <Format repr="true" eq="true" order="false" unsafeHash="false" frozen="false" slots="false" kwOnly="false">dataclasses</Format>
     <Structure>filenames</Structure>
@@ -10,9 +10,9 @@
     <PostponedAnnotations>false</PostponedAnnotations>
     <UnnestClasses>false</UnnestClasses>
   </Output>
-  <!--Extensions>
+  <Extensions>
     <Extension type="class" class=".*" import="nfelib.CommonMixin" prepend="false" applyIfDerived="false"/>
-  </Extensions-->
+  </Extensions>
   <Conventions>
     <ClassName case="pascalCase" safePrefix="type"/>
     <FieldName case="originalCase" safePrefix="value"/>
